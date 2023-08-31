@@ -1,0 +1,77 @@
+body {
+  background: rgb(0, 212, 255);
+  background: linear-gradient(45deg,rgba(0, 212, 255, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(0, 212, 255, 1) 100%);
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 2px;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.card {
+  width: 65%;
+}
+
+.clip-path-right {
+  margin: -25px;
+  width: 100vw;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 10px 15px rgb(22, 22, 22);
+}
+
+#fiji {
+  background-image: url("assets/fiji1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  padding-top: 30%;
+  text-shadow: #000000 1px 1px 2px;
+}
+
+#india {
+  background-image: url("assets/india.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  padding-top: 30%;
+  text-shadow: #000000 1px 1px 2px;
+}
+
+#bali {
+  background-image: url("assets/bali.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  padding-top: 30%;
+  text-shadow: #000000 1px 1px 2px;
+}
+
+#F_Beaches {
+  background-image: url("assets/F_Beaches.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  padding-top: 30%;
+}
+
+#F_Beaches2 {
+  background-image: url("assets/F_Beaches3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  padding-top: 30%;
+}
